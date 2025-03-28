@@ -20,6 +20,34 @@ int main(){
     float PIb_Bilhoes_de_reais = 76.070; // PIB da cidade de Maceió em bilhões, número decimal
     int Pontosturisticos = 18; // Número de pontos turísticos da Cidade de Recife, número inteiro
     int PontosTuristicos = 19; // Número de pontos turísticos da Cidade de Maceió, número inteiro
+
+    // Entrada de dados pelo usuário da Carta 1:
+    printf("Digite a carta: ");
+    scanf("%d", &Carta); // Lê um número inteiro
+
+    printf("Digite o Estado: ");
+    scanf(" %c", &Estado); // Lê um caractere
+
+    printf("Digite o Código: ");
+    scanf("%s", Codigo); // Lê uma string
+
+    printf("Digite a Cidade: ");
+    scanf("%s", Cidade); // Lê uma string
+
+    printf("Digite a Populacao: ");
+    scanf("%d", &Populacao); // Lê um número inteiro
+
+    printf("Digite a area (Km²): ");
+    scanf("%f", &area_km2); // Lê um número decimal
+
+    printf("Digite o PIB: ");
+    scanf("%f", &PIB_Bilhoes_de_reais); // Lê um número decimal
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d", &Pontosturisticos); // Lê um número inteiro
+
+    printf("\n"); // Pula uma linha
+
     
     
 
