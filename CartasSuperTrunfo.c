@@ -2,6 +2,7 @@
 
 int main(){
     printf("Desafio Super Trunfo!\n");
+    printf("\n");
 
     //Declaração e Inicialização das Variáveis
     int Carta = 1; // Número da carta
