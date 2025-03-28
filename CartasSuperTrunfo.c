@@ -49,6 +49,33 @@ int main(){
 
     printf("\n"); // Pula uma linha
 
+    // Entrada de dados pelo usuário da Carta 2:
+    printf("Digite a Carta: ");
+    scanf(" %d", &CartA); // Lê um número inteiro
+
+    printf("Digite o Estado: ");
+    scanf(" %c", &EstadO); // Lê um caractere
+
+    printf("Digite o Código: ");
+    scanf("%s", codigO); // Lê uma string
+
+    printf("Digite a Cidade: ");
+    scanf("%s", CidadE); // Lê uma string
+
+    printf("Digite a Populacao: ");
+    scanf("%d", &PopulacaO); // Lê um número inteiro
+
+    printf("Digite a area (Km²): ");
+    scanf("%f", &Area_km2); // Lê um número decimal
+
+    printf("Digite o PIB: ");
+    scanf("%f", &PIb_Bilhoes_de_reais); // Lê um número decimal
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d", &PontosTuristicos); // Lê um número inteiro
+
+    printf("\n"); // Pula uma linha
+
     
     
 
