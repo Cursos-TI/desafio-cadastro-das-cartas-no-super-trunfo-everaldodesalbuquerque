@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("Desafio Super Trunfo!\n");
+    printf("Desafio Super Trunfo Novato!\n");
     printf("\n");
 
     //Declaração e Inicialização das Variáveis
@@ -104,9 +104,6 @@ printf("\n");
 
 //Indica que o programa finalizou corretamente
 return 0;                                     
-
-    
-    
 
 
 }
