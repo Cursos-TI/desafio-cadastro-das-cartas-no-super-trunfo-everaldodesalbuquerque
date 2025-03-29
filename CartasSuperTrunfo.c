@@ -76,6 +76,35 @@ int main(){
 
     printf("\n"); // Pula uma linha
 
+    // Exibição dos dados inseridos Carta 1:
+
+printf("carta: %d\n", Carta);
+printf("Estado: %c\n", Estado);
+printf("Código: %s\n", Codigo);
+printf("Cidade: %s\n", Cidade);
+printf("População: %d habitantes\n", Populacao);
+printf("Área: %.2f Km²\n", area_km2);
+printf("PIB: %.3f bilhões\n", PIB_Bilhoes_de_reais);
+printf("Pontos turísticos: %d\n", Pontosturisticos);
+
+printf("\n"); // Pula um linha
+
+// Exibição dos dados inseridos Carta 2:
+
+printf("carta: %d\n", CartA);
+printf("Estado: %c\n", EstadO);
+printf("Código: %s\n", codigO);
+printf("Cidade: %s\n", CidadE);
+printf("População: %d habitantes\n", PopulacaO);
+printf("Área: %.2f Km²\n", Area_km2);
+printf("PIB: %.3f bilhões\n", PIb_Bilhoes_de_reais);
+printf("Pontos turísticos: %d\n", PontosTuristicos);
+
+printf("\n");
+
+//Indica que o programa finalizou corretamente
+return 0;                                     
+
     
     
 
