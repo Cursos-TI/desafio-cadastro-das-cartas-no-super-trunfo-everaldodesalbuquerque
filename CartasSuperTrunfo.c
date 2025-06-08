@@ -21,6 +21,10 @@ int main(){
     float PIb_Bilhoes_de_reais = 76.070; // PIB da cidade de Maceió em bilhões, número decimal
     int Pontosturisticos = 18; // Número de pontos turísticos da Cidade de Recife, número inteiro
     int PontosTuristicos = 19; // Número de pontos turísticos da Cidade de Maceió, número inteiro
+    float Densidade_Populacional1 = Populacao / area_km2; // Densidade populacional da Cidade de Recife, número decimal
+    float Densidade_Populacional2 = PopulacaO / Area_km2; // Densidade populacional da Cidade de Maceió, número decimal
+    float PIB_Per_Capita = (PIB_Bilhoes_de_reais * 1000000000) / Populacao; // PIB per capita da Cidade de Recife, número decimal
+    float PIB_Per_CapitA = (PIb_Bilhoes_de_reais * 1000000000) / PopulacaO; // PIB per capita da Cidade de Maceió, número decimal
 
     // Entrada de dados pelo usuário da Carta 1:
     printf("Digite a carta: ");
@@ -86,6 +90,8 @@ printf("População: %d habitantes\n", Populacao);
 printf("Área: %.2f Km²\n", area_km2);
 printf("PIB: %.3f bilhões\n", PIB_Bilhoes_de_reais);
 printf("Pontos turísticos: %d\n", Pontosturisticos);
+printf("Densidade populacional: %.2f hab/km²\n", Densidade_Populacional1);
+printf("PIB per capita: %.2f reais\n", PIB_Per_Capita);
 
 printf("\n"); // Pula um linha
 
@@ -99,6 +105,8 @@ printf("População: %d habitantes\n", PopulacaO);
 printf("Área: %.2f Km²\n", Area_km2);
 printf("PIB: %.3f bilhões\n", PIb_Bilhoes_de_reais);
 printf("Pontos turísticos: %d\n", PontosTuristicos);
+printf("Densidade populacional: %.2f hab/km²\n", Densidade_Populacional2);
+printf("PIB per capita: %.2f reais\n", PIB_Per_CapitA);
 
 printf("\n");
 
